@@ -1,0 +1,9 @@
+append config
+.jobs
+    h2.subtitle.jobs__title Experiencia Laboral
+    each item, index in jobs
+        .jobs__item
+            p.jobs__item__title #{item.title}
+            p.jobs__item__company #{item.company}
+            p.jobs__item__description #{item.description}
+            p.jobs__item__year #{item.year}

@@ -1,0 +1,23 @@
+//config
+@import "config";
+
+//Estilos base
+@import "base/base";
+
+//components
+@import "components/header";
+@import "components/main";
+@import "components/education";
+@import "components/jobs";
+@import "components/portfolio";
+
+//modules
+@import "modules/button";
+@import "modules/subtitle";
+
+//layout
+@import "layout/layout";
+
+.menu {
+    display: none;
+}

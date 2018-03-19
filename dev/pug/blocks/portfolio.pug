@@ -1,0 +1,8 @@
+append config
+.portfolio
+    h2.subtitle.portfolio__title Portfolio
+    each item, index in projects
+        .portfolio__item
+            p.portfolio__item__title #{item.title}
+            img(src='img/' + item.image, alt="").portfolio__item__img
+            p.portfolio__item__url #{item.url}

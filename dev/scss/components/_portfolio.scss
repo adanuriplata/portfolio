@@ -1,0 +1,29 @@
+.portfolio {
+    &__item {
+        position: relative;
+        padding: 10px;
+        
+        &__title {
+            font-size: font(main-subtitle-2);
+            font-weight: bold;
+            position: absolute;
+            bottom: 10%;
+            text-align: center;
+            z-index: 11; 
+        }
+        &__url {
+            position: absolute;
+            z-index: 10; 
+        }
+        &__img {
+         z-index: 20;           
+        }
+        &__img:hover {
+            opacity: 0.3;        
+        }
+    }
+    &__item:hover{
+        box-shadow: 2px 3px color(shadow);
+        border: solid 1px color(shadow);
+    }
+}

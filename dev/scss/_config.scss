@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway');
+
+$colors: (
+    metalic-blue: #4C33FB,
+    light: #EEE,
+    dark: #222,
+    shadow: #9B9B9B
+);
+
+@function color($color){
+    @return map-get($colors,$color);
+  }
+
+$fonts: (
+    main-title: 28px,
+    main-subtitle: 16px,
+    main-subtitle-2: 18px,
+    subtitle: 25px,
+    description: 15px,
+    buttons: 12px
+);
+
+@function font($font-size){
+    @return map-get($fonts,$font-size);
+  }

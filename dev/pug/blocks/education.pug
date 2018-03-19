@@ -1,0 +1,8 @@
+append config
+.education
+    h2.subtitle.education__title Educación
+    each item, index in education
+        .education__item
+            p.education__item__title #{item.title}
+            p.education__item__description #{item.description}
+            p.education__item__year #{item.year}

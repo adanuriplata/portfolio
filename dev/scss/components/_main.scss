@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    &__name {
+        width: 100%;
+        border-bottom: solid 4px color(metalic-blue);
+        max-width: 50%;
+        font-size: font(main-title);
+        margin-bottom: 10px;
+        padding-bottom: 5px; 
+        margin-top: 10px;
+    }
+    &__lastname{
+        color: color(metalic-blue);
+    }
+    &__job {
+        width: 100%;
+        font-size: font(main-subtitle);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    &__social-media {
+        font-size: font(subtitle);
+        width: 50%;
+        padding-bottom: 10%;
+        display: flex;
+        justify-content: space-around;
+        &__item{
+            color: color(metalic-blue);
+            //padding-right: 20px;
+        }
+    }
+    &__buttons {
+        width: 100%;
+        margin-top: 10px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-around;
+        &-resume{
+            color: color(dark);
+        }
+        &-potfolio{
+            background: color(metalic-blue);
+            color: color(light);
+            border: solid 2px color(metalic-blue) !important;
+        }
+    }
+}

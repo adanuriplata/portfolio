@@ -1,0 +1,14 @@
+.header {
+    background-color: color(metalic-blue);
+    padding: 15px 15px 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    &__menu{
+        font-size: 30px;
+        color: color(light);
+        cursor: pointer;
+    }
+    &__logo img{
+        width: 52px;
+    }
+}
