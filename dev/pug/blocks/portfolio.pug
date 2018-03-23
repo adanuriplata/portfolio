@@ -2,7 +2,8 @@ append config
 .portfolio
     h2.subtitle.portfolio__title Portfolio
     each item, index in projects
-        .portfolio__item
-            p.portfolio__item__title #{item.title}
+        .portfolio__item#portafolio__item
             img(src='img/' + item.image, alt="").portfolio__item__img
-            p.portfolio__item__url #{item.url}
+            .portfolio__item__modal
+                p.portfolio__item__modal__title #{item.title}
+                a(href=item.url).button.main__buttons-potfolio.portfolio__item__modal__button VISITAR
